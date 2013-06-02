@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference
+        
+        android:defaultValue="@string/pref_default_user_name"
+        android:inputType="text"
+        android:key="user"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_user_name" />
+    <EditTextPreference
+        
+        android:defaultValue="@string/pref_default_password"
+        android:key="password"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_password"
+        android:inputType="textPassword"  />
+    <EditTextPreference
+        
+        android:defaultValue="@string/pref_default_server_name"
+        android:inputType="text"
+        android:key="server"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_server_name" />
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_local_directory"
+        android:inputType="textCapWords"
+        android:key="localdirectory"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_local_directory" />
+    <ListPreference
+        android:defaultValue="180"
+        android:entries="@array/pref_sync_frequency_titles"
+        android:entryValues="@array/pref_sync_frequency_values"
+        android:key="sync_frequency"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_sync_frequency" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="opportunistic"
+        android:title="@string/pref_title_opportunistic" />
+    
+<!--          This preference simply launches an intent when selected. Use this UI sparingly, per -->
+<!--          design guidelines. -->
+<!--     --> -->
+<!--     <Preference android:title="@string/pref_title_system_sync_settings" > -->
+<!--         <intent android:action="android.settings.SYNC_SETTINGS" /> -->
+<!--     </Preference> -->
+    
+
+</PreferenceScreen>

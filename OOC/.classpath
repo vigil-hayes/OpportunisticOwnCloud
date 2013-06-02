@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry excluding="com/example/opportunisticowncloud/CopyOfMainActivity.java|com/example/opportunisticowncloud/LocalFileFragment.java|com/example/opportunisticowncloud/RemoteFileFragment.java|com/example/opportunisticowncloud/FileFragment.java|com/example/opportunisticowncloud/BootReceiver.java|com/example/opportunisticowncloud/LocalDataSource.java|com/example/opportunisticowncloud/LocalOpenHelper.java|com/example/opportunisticowncloud/RemoteDataSource.java|com/example/opportunisticowncloud/RemoteOpenHelper.java|com/example/opportunisticowncloud/OnFragmentInteractionListener.java|com/example/opportunisticowncloud/DictionaryOpenHelper.java|com/example/opportunisticowncloud/RemoteToLocal.java|com/example/opportunisticowncloud/LocalToRemote.java" kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
